@@ -1,6 +1,5 @@
-import React from 'react';
-import css from './NotFound.module.css';
 import { Metadata } from 'next';
+import css from './NotFound.module.css';
 
 export const metadata: Metadata = {
   title: 'Not-found',
@@ -8,7 +7,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Not-found',
     description: 'No such page exists',
-    url: 'https://08-zustand-three-delta.vercel.app/not-found',
+    url: 'https://09-auth-nu-sepia.vercel.app/not-found',
     images: [
       {
         url: 'https://ac.goit.global/fullstack/react/notehub-og-meta.jpg',

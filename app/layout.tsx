@@ -1,10 +1,10 @@
+import AuthProvider from '@/components/AuthProvider/AuthProvider';
+import Footer from '@/components/Footer/Footer';
+import Header from '@/components/Header/Header';
+import TanStackProvider from '@/components/TanStackProvider/TanStackProvider';
 import type { Metadata } from 'next';
 import { Roboto } from 'next/font/google';
 import './globals.css';
-import TanStackProvider from '@/components/TanStackProvider/TanStackProvider';
-import Header from '@/components/Header/Header';
-import Footer from '@/components/Footer/Footer';
-import AuthProvider from '@/components/AuthProvider/AuthProvider';
 
 const roboto = Roboto({
   subsets: ['latin'],
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     title: 'NoteHub',
     description:
       'NoteHub is an intuitive and reliable application developed to efficiently organize, manage, and access personal notes.',
-    url: 'https://08-zustand-three-delta.vercel.app/',
+    url: 'https://09-auth-nu-sepia.vercel.app/',
     images: [
       {
         url: 'https://ac.goit.global/fullstack/react/notehub-og-meta.jpg',
