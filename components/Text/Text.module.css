@@ -1,0 +1,35 @@
+.text {
+  font-size: 24px;
+  font-weight: 700;
+  color: black;
+  text-align: start;
+}
+
+.orange {
+  composes: text;
+  color: rgb(255, 107, 10);
+}
+
+.end {
+  composes: text;
+  text-align: end;
+}
+.center {
+  composes: text;
+  text-align: center;
+}
+.justify {
+  composes: text;
+  text-align: justify;
+}
+
+.marginBottom10 {
+  margin-bottom: 10px;
+}
+.marginBottom20 {
+  /* margin-bottom: 20px; */
+  margin-top: 250px;
+}
+.marginBottom0 {
+  margin-bottom: 0;
+}
