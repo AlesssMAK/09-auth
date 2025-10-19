@@ -6,7 +6,7 @@
 
 .logoutButton {
   background: transparent;
-  border: 1px solid white;
+  border: none;
   color: white;
   padding: 0.3rem 0.6rem;
   border-radius: 4px;
